@@ -95,3 +95,16 @@ footer p {
     font-weight: 100;
     font-style: normal;
 }
+
+@media screen and (max-width: 768px) {
+    #p5js {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    #startBtn button {
+        width: 4rem;
+        height: 4rem;
+        background-size: contain; /* 더 나은 비율 조정 */
+    }
+}
