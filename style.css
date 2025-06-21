@@ -27,8 +27,9 @@ header h3 {
 
 #p5js {
     background-color: #ffffff;
-    width: 32vw;
-    height: 32vw;
+    
+    width: 36vw;
+    height: 36vw;
     border: 1px solid #000000;
 
     margin: 0 auto;
