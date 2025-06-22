@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111111;
+}
+
+canvas{
+    display: block;
+}
+
+/*header*/
+header{
+    width: 100vw;
+    height: 6vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #111111;
+
+    position: absolute;
+    top: 0;
+}
+
+header p {
+    color:#F5F6FA;
+    text-align: center;
+    font-family: 'LINESeedKR-Rg';
+    font-size: 0.6rem;
+
+    
+}
+
+/*contents  - BG*/
+#BG {
+    width: 100vw;
+    height: 88vh;
+    margin-top: 6vh;
+
+    position: relative; 
+    overflow: hidden;
+    
+    /*나중에 지우기
+    background-color: black;
+    */
+}
+
+/*contents  - BG - graphics*/
+#graphics{
+    width: 100vw;
+    height: 80%; 
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+     z-index: 1;
+
+}
+
+/*contents  - BG - graphics - magic-circle*/
+#magic-circle{
+    height: 68%;
+    aspect-ratio: 1 /1;;
+
+    /*나중에 지우기*/
+    background-color: #111111;
+
+    margin-top: 4%;
+
+    position: relative;
+}
+
+
+/*contents  - BG - graphics - data-visul*/
+#data-visual{
+    height: 68%;
+    width: 70%;
+
+    background-color: #111111;
+
+    margin-top: 4%;
+    position: relative;
+}
+
+/*contents  - BG - speek*/
+#speek{
+    width: 20vw;
+    height: 10%; 
+
+    margin : 0 auto;
+    margin-top: 2%;
+
+
+    background-color: #111111;
+    border: 1px solid #F5F6FA;
+
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:4%;
+}
+/*contents  - background - speek - mic*/
+#mic{
+    height: 80%;
+    aspect-ratio: 1 / 1;
+
+    margin-left: 4%;
+
+    background-image: url("./assets/img/mic.png");
+    background-size: cover;
+}
+
+/*contents  - background - speek - how*/
+#how{
+    height: 80%;
+    width: 72%;
+    margin-right: 4%;
+
+    color: #F5F6FA;
+    text-align: left;
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    font-family: 'LINESeedKR-Th';
+
+
+    display: flex;
+    align-items: center;
+}
+
+
+/*footer*/
+footer{
+    width: 100vw;
+    height: 6vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+
+    background-color: #111111;
+}
+
+footer p {
+    color:#F5F6FA;
+    text-align: center;
+    font-family: 'LINESeedKR-Th';
+    font-size: 0.5rem;
+}
+
+
+
+
+/*font-family*/
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINESeedKR-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Rg.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINESeedKR-Th';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Th.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
