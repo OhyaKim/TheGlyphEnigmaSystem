@@ -1,5 +1,5 @@
 import { TextStructure } from "./TextStructure.js";
-import { KORMorse } from '../assets/data/KORMorse.js';
+import { KORMorse } from '../assets/data/KORMORSE.js';
 
 export function ConvertToMorse() {
     const TextStructure_Result = TextStructure();
